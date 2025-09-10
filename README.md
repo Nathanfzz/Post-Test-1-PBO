@@ -38,6 +38,53 @@ Tampilan awal ketika pertama kali menjalankan program
    
 5. Hapus Catatan
 
+**Penjelasan kode**
+
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+Program menggunakan ArrayList untuk menyimpan data proyek dan Scanner untuk membaca input dari pengguna.
+Class Pembangunan
+Class ini merepresentasikan data proyek pembangunan/perbaikan.
+Atribut yang disimpan adalah jenis, alamat, tanggal, lamaKontrak, namaProyek, dan status.
+Constructor digunakan untuk mengisi data, sedangkan toString() digunakan untuk menampilkan data dalam format rapi.
+
+Deklarasi Variabel Utama
+
+daftarPembangunan → menyimpan semua data proyek dalam ArrayList.
+
+scanner → membaca input dari pengguna.
+
+pilihan → menyimpan angka menu yang dipilih pengguna.
+
+Menu Utama dengan Perulangan
+Program menampilkan menu utama menggunakan perulangan do...while.
+Program akan terus berjalan sampai pengguna memilih opsi 5 (Keluar).
+
+Menu 1 – Tambah Catatan
+Pengguna diminta mengisi data proyek baru (jenis, alamat, tanggal, lama kontrak, nama proyek, status).
+Data kemudian dimasukkan ke dalam ArrayList sebagai objek Pembangunan.
+
+Menu 2 – Lihat Catatan
+Jika data kosong, program menampilkan pesan bahwa belum ada catatan.
+Jika ada data, program menampilkan semua catatan dengan format rapi menggunakan toString().
+
+Menu 3 – Ubah Catatan
+Program menampilkan daftar proyek dengan nomor urut.
+Pengguna memilih data yang ingin diubah berdasarkan nomor.
+Jika nomor valid, pengguna dapat mengganti data lama dengan data baru.
+
+Menu 4 – Hapus Catatan
+Program menampilkan daftar proyek dengan nomor urut.
+Pengguna memilih data yang ingin dihapus.
+Data dihapus dari ArrayList menggunakan remove().
+
+Menu 5 – Keluar
+Program berhenti berjalan dan menampilkan pesan terima kasih.
+
+
+
 
     <img width="584" height="328" alt="image" src="https://github.com/user-attachments/assets/54d6c34e-0b1d-4b9a-9c14-a1f539a59255" />
 
