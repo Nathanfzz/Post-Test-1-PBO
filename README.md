@@ -84,9 +84,5 @@ Menu 5 – Keluar
 Program berhenti berjalan dan menampilkan pesan terima kasih.
 
 
-
-
-    <img width="584" height="328" alt="image" src="https://github.com/user-attachments/assets/54d6c34e-0b1d-4b9a-9c14-a1f539a59255" />
-
    Pilihan ini berfungsi untuk menghapus catatan sesuai dengan nomor catatan
    
